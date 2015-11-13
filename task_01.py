@@ -18,7 +18,7 @@ def simple_lookup(var1, var2):
         """
     try:
         getindex = var1[var2]
-    except LookupError: # or LookupError
+    except LookupError:
         print 'Warning: Your index/key doesn\'t exist'
         return var1
     return getindex
